@@ -51,25 +51,13 @@ production:
   adapter: postgrsql
   encoding: unicode
   pool: 5
-  datebase: message-board_production
-  username: message-board
-  password: <%= ENV['MESSAGE-BOARD_DATABASE_PASSWORD'] %>
-  
-
-
-production:
-  <<: *default
-  database: task-list_production
+  datebase: task-list_production
   username: task-list
   password: <%= ENV['TASK-LIST_DATABASE_PASSWORD'] %>
   
-  
-  
-  
-  
-  
-  
-  
+
+
+
   
   
   
